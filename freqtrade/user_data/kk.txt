@@ -1,0 +1,81 @@
+freqtrade download-data -c ./user_data/config.json -t 5m --timerange 20251001-20251108
+freqtrade backtesting --strategy KamaFama -c ./user_data/config.json --timerange 20251015-20251108
+nohup freqtrade trade --config user_data/config.json --strategy KamaFama > ./user_data/logs/kamafama.log &
+nohup freqtrade trade --config user_data/config.json --strategy RoostooStrategy > ./user_data/logs/RoostooStrategy.log &
+
+
+
+# 安装 tmux
+sudo apt update && sudo apt install tmux
+# 使用 tmux
+tmux new -s strategy
+# 在 tmux 会话中运行你的命令
+nohup your_command &
+# 按 Ctrl+B, 然后按 D 分离会话
+# 现在可以安全关闭窗口了
+
+# 重新连接时
+tmux attach -t strategy
+
+
+"TRX/USDT",
+"EDEN/USDT",
+"AVNT/USDT",
+"BONK/USDT",
+"PEPE/USDT",
+"BNB/USDT",
+"APT/USDT",
+"LINEA/USDT",
+"WIF/USDT",
+"VIRTUAL/USDT",
+"NEAR/USDT",
+"PUMP/USDT",
+"FET/USDT",
+"ADA/USDT",
+"AVAX/USDT",
+"PLUME/USDT",
+"LTC/USDT",
+"FORM/USDT",
+"CRV/USDT",
+"BTC/USDT",
+"XPL/USDT",
+"TUT/USDT",
+"PAXG/USDT",
+"SOMI/USDT",
+"SHIB/USDT",
+"BIO/USDT",
+"DOT/USDT",
+"FIL/USDT",
+"S/USDT",
+"SEI/USDT",
+"LISTA/USDT",
+"STO/USDT",
+"WLFI/USDT",
+"TRUMP/USDT",
+"ARB/USDT",
+"EIGEN/USDT",
+"LINK/USDT",
+"SUI/USDT",
+"WLD/USDT",
+"ASTER/USDT",
+"TAO/USDT",
+"XLM/USDT",
+"ENA/USDT",
+"SOL/USDT",
+"FLOKI/USDT",
+"TON/USDT",
+"PENDLE/USDT",
+"OPEN/USDT",
+"POL/USDT",
+"MIRA/USDT",
+"ETH/USDT",
+"DOGE/USDT",
+"ONDO/USDT",
+"BMT/USDT",
+"CFX/USDT",
+"ICP/USDT",
+"UNI/USDT",
+"ZEN/USDT",
+"AAVE/USDT",
+"HBAR/USDT",
+"CAKE/USDT"
