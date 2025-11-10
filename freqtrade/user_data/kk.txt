@@ -1,6 +1,7 @@
 freqtrade download-data -c ./user_data/config.json -t 5m --timerange 20251001-20251108
-freqtrade backtesting --strategy KamaFama -c ./user_data/config.json --timerange 20251015-20251108
-nohup freqtrade trade --config user_data/config.json --strategy KamaFama > ./user_data/logs/kamafama.log &
+freqtrade backtesting --strategy Thank_U_Crypto -c ./user_data/config.json --timerange 20251001-20251108
+
+nohup freqtrade trade --config user_data/config.json --strategy Thank_U_Crypto > ./user_data/logs/Thank_U_Crypto.log &
 nohup freqtrade trade --config user_data/config.json --strategy RoostooStrategy > ./user_data/logs/RoostooStrategy.log &
 
 

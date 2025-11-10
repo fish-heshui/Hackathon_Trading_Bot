@@ -8,7 +8,6 @@
     "dry_run_wallet": 50000,
     "trading_mode": "spot",
     "margin_mode": "isolated",
-    "timeframe": "5m",
     "cancel_open_orders_on_exit": false,
     "use_exit_signal": true,
     "exit_profit_only": false,
@@ -132,7 +131,7 @@
         "username": "freqtrader",
         "password": "freqtrader"
     },
-    "bot_name": "freqtrade_kamafama",
+    "bot_name": "thank_u_crypto",
     "initial_state": "running",
     "force_entry_enable": false,
     "internals": {
