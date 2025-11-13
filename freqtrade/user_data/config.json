@@ -34,7 +34,7 @@
         "order_book_top": 1
     },
     "exchange": {
-        "name": "bitget",
+        "name": "binance",
         "key": "",
         "secret": "",
         "ccxt_config": {
@@ -131,7 +131,7 @@
         "username": "freqtrader",
         "password": "freqtrader"
     },
-    "bot_name": "thank_u_crypto",
+    "bot_name": "hackathon_trading_bot",
     "initial_state": "running",
     "force_entry_enable": false,
     "internals": {

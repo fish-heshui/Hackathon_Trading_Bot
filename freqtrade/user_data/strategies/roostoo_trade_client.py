@@ -12,8 +12,8 @@ logger = logging.getLogger("Roostoo")
 # --- API CLIENT ---
 class RoostooAPIClient:
     API_BASE_URL = "https://mock-api.roostoo.com"
-    API_KEY = "Y1kQ8tZjnV4mH2GsaC7pL5DbT9xE0oWfrJ3uS6PiB8vN1yXqgD4cM7UeK2wF9AlR"
-    SECRET_KEY = "eR8tY0uI2oPaS4dF6gHjK1lL3ZxCV5bN7mQwE9rT1yUiP0oA2sDdF4gJ6hKl"
+    API_KEY = ""
+    SECRET_KEY = ""
 
     def __init__(self, max_trade=5, api_key=API_KEY, secret_key=SECRET_KEY, base_url=API_BASE_URL):
         self.api_key = api_key
